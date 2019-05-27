@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{0FB798DC-1A73-4E88-BC86-83E134A0B047}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_2", "WindowsFormsApp1\c_sharp_2.csproj", "{0FB798DC-1A73-4E88-BC86-83E134A0B047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
