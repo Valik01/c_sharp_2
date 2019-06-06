@@ -48,6 +48,8 @@
          this.rTBrhom = new System.Windows.Forms.RichTextBox();
          this.label2 = new System.Windows.Forms.Label();
          this.label3 = new System.Windows.Forms.Label();
+         this.savebut = new System.Windows.Forms.Button();
+         this.openbut = new System.Windows.Forms.Button();
          ((System.ComponentModel.ISupportInitialize)(this.ax)).BeginInit();
          ((System.ComponentModel.ISupportInitialize)(this.ay)).BeginInit();
          ((System.ComponentModel.ISupportInitialize)(this.dy)).BeginInit();
@@ -272,11 +274,33 @@
          this.label3.TabIndex = 53;
          this.label3.Text = "Quadrilateral";
          // 
+         // savebut
+         // 
+         this.savebut.Location = new System.Drawing.Point(27, 229);
+         this.savebut.Name = "savebut";
+         this.savebut.Size = new System.Drawing.Size(181, 55);
+         this.savebut.TabIndex = 54;
+         this.savebut.Text = "Save";
+         this.savebut.UseVisualStyleBackColor = true;
+         this.savebut.Click += new System.EventHandler(this.savebut_Click);
+         // 
+         // openbut
+         // 
+         this.openbut.Location = new System.Drawing.Point(27, 299);
+         this.openbut.Name = "openbut";
+         this.openbut.Size = new System.Drawing.Size(181, 55);
+         this.openbut.TabIndex = 55;
+         this.openbut.Text = "Open";
+         this.openbut.UseVisualStyleBackColor = true;
+         this.openbut.Click += new System.EventHandler(this.openbut_Click);
+         // 
          // Form1
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          this.ClientSize = new System.Drawing.Size(678, 452);
+         this.Controls.Add(this.openbut);
+         this.Controls.Add(this.savebut);
          this.Controls.Add(this.label3);
          this.Controls.Add(this.label2);
          this.Controls.Add(this.rTBrhom);
@@ -333,6 +357,8 @@
       private System.Windows.Forms.RichTextBox rTBrhom;
       private System.Windows.Forms.Label label2;
       private System.Windows.Forms.Label label3;
+      private System.Windows.Forms.Button savebut;
+      private System.Windows.Forms.Button openbut;
    }
 }
 
